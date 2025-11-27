@@ -36,9 +36,27 @@ public class CustomerService {
 
     public CustomerDTO createCustomer(CustomerDTO customerDTO){
         Customer customer = customerMapper.toEntity(customerDTO);
-        // CORREGIDO: toDTO -> toDto
         return customerMapper.toDto(customerRepository.save(customer)); 
     }
 
+    public CustomerDTO updateCustomer(Long id, CustomerDTO customerDTO) {
+        Customer customer = customerRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Cliente no encontrado con ID: " + id));
+        
+        customer.setFirstName(customerDTO.getFirstName());
+        customer.setLastName(customerDTO.getLastName());
+        customer.setAccountNumber(customerDTO.getAccountNumber());
+        customer.setBalance(customerDTO.getBalance());
+        
+        Customer updated = customerRepository.save(customer);
+        return customerMapper.toDto(updated);
+    }
+
+    public void deleteCustomer(Long id) {
+        if (!customerRepository.existsById(id)) {
+            throw new RuntimeException("Cliente no encontrado con ID: " + id);
+        }
+        customerRepository.deleteById(id);
+    }
 
 }
