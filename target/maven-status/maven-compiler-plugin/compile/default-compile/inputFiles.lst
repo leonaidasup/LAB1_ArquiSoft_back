@@ -1,0 +1,14 @@
+C:\Users\leona\OneDrive\Escritorio\2025-2\arqui\lab1\LAB1_ArquiSoft_back\src\main\java\com\udea\bancoudea\BancoudeaApplication.java
+C:\Users\leona\OneDrive\Escritorio\2025-2\arqui\lab1\LAB1_ArquiSoft_back\src\main\java\com\udea\bancoudea\controller\CustomerController.java
+C:\Users\leona\OneDrive\Escritorio\2025-2\arqui\lab1\LAB1_ArquiSoft_back\src\main\java\com\udea\bancoudea\controller\TransactionController.java
+C:\Users\leona\OneDrive\Escritorio\2025-2\arqui\lab1\LAB1_ArquiSoft_back\src\main\java\com\udea\bancoudea\DTO\CustomerDTO.java
+C:\Users\leona\OneDrive\Escritorio\2025-2\arqui\lab1\LAB1_ArquiSoft_back\src\main\java\com\udea\bancoudea\DTO\TransactionDTO.java
+C:\Users\leona\OneDrive\Escritorio\2025-2\arqui\lab1\LAB1_ArquiSoft_back\src\main\java\com\udea\bancoudea\DTO\TransferRequestDTO.java
+C:\Users\leona\OneDrive\Escritorio\2025-2\arqui\lab1\LAB1_ArquiSoft_back\src\main\java\com\udea\bancoudea\entity\Customer.java
+C:\Users\leona\OneDrive\Escritorio\2025-2\arqui\lab1\LAB1_ArquiSoft_back\src\main\java\com\udea\bancoudea\entity\Transaction.java
+C:\Users\leona\OneDrive\Escritorio\2025-2\arqui\lab1\LAB1_ArquiSoft_back\src\main\java\com\udea\bancoudea\mapper\CustomerMapper.java
+C:\Users\leona\OneDrive\Escritorio\2025-2\arqui\lab1\LAB1_ArquiSoft_back\src\main\java\com\udea\bancoudea\mapper\TransactionMapper.java
+C:\Users\leona\OneDrive\Escritorio\2025-2\arqui\lab1\LAB1_ArquiSoft_back\src\main\java\com\udea\bancoudea\repository\CustomerRepository.java
+C:\Users\leona\OneDrive\Escritorio\2025-2\arqui\lab1\LAB1_ArquiSoft_back\src\main\java\com\udea\bancoudea\repository\TransactionRepository.java
+C:\Users\leona\OneDrive\Escritorio\2025-2\arqui\lab1\LAB1_ArquiSoft_back\src\main\java\com\udea\bancoudea\service\CustomerService.java
+C:\Users\leona\OneDrive\Escritorio\2025-2\arqui\lab1\LAB1_ArquiSoft_back\src\main\java\com\udea\bancoudea\service\TransactionService.java

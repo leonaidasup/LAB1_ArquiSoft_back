@@ -23,17 +23,21 @@ public class CustomerService {
 
     public List<CustomerDTO> getAllCustomer(){
         return customerRepository.findAll().stream()
-                .map(customerMapper::toDTO).toList();
+                // CORREGIDO: toDTO -> toDto
+                .map(customerMapper::toDto).toList(); 
     }
 
     public CustomerDTO getCustomerById(Long id){
-        return customerRepository.findById(id).map(customerMapper::toDTO)
+        return customerRepository.findById(id)
+                // CORREGIDO: toDTO -> toDto
+                .map(customerMapper::toDto)
                 .orElseThrow(()->new RuntimeException("Cliente no encontrado"));
     }
 
     public CustomerDTO createCustomer(CustomerDTO customerDTO){
         Customer customer = customerMapper.toEntity(customerDTO);
-        return customerMapper.toDTO(customerRepository.save(customer));
+        // CORREGIDO: toDTO -> toDto
+        return customerMapper.toDto(customerRepository.save(customer)); 
     }
 
 
